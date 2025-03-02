@@ -1,0 +1,8 @@
+{
+  "Routes": {
+    "auth": {
+      "login": "/auth/api/v1/auth/login",
+      "getSession": "/auth/api/v1/auth/get-session"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+/* src/styles.css */
+.neon-icon {
+    filter: drop-shadow(0 0 10px #f4d03f) drop-shadow(0 0 10px #f4d03f) drop-shadow(0 0 30px #f4d03f);
+  }
+  

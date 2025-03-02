@@ -1,0 +1,65 @@
+/* importación de fuentes google fonts */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* paleta de colores */
+  --color-pink-1: #e234f8;
+  --color-pink-2: #c627ec;
+  --color-pink-3: #901ba3;
+  --color-pink-3-50: rgba(144, 27, 163, 0.5);
+  --color-pink-3-30: rgba(144, 27, 163, 0.3);
+  --color-gray-1: #bbbbbb;
+  --color-gray-2: #818181;
+  --color-gray-3: #383838;
+
+  /* Colores para alertas personalizadas */
+  --color-confirmation: #28a745;
+  --color-warning: #ffc107;
+  --color-error: #dc3545;
+
+  /* Versiones translúcidas (opcional) */
+  --color-confirmation-30: rgba(40, 167, 69, 0.3);
+  --color-warning-30: rgba(255, 193, 7, 0.3);
+  --color-error-30: rgba(220, 53, 69, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 48;
+}
+
+/* Incrementa la especificidad usando selectores anidados */
+.snackbar-success.notistack-MuiContent-success {
+  background-color: var(--color-confirmation) !important;
+  color: white !important;
+}
+
+.snackbar-warning.notistack-MuiContent-warning {
+  background-color: var(--color-warning) !important;
+  color: white !important;
+}
+
+.snackbar-error.notistack-MuiContent-error {
+  background-color: var(--color-error) !important;
+  color: white !important;
+}
+
+.snackbar-info.notistack-MuiContent-info {
+  background-color: var(--color-pink-1) !important;
+  color: white !important;
+}

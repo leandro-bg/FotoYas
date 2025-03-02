@@ -1,0 +1,12 @@
+{
+    "Apis": {
+        "Local": "https://localhost:7218",
+        "Dev": "https://localhost:7218",
+        "Prod": "https://localhost:7218"
+    },
+    "Encripted": {
+        "Local": false,
+        "Dev": false,
+        "Prod": true
+    }
+}
